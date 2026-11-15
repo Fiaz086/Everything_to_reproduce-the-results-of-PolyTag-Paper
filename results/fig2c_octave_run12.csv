@@ -1,0 +1,10 @@
+# Fig. 2(c): IEEE 300-bus, share of single-measurement attacks that alter the transmitted value (PolyTag)
+# and RP-VDVM detection, from the earlier GNU Octave run (run_12, delta sweep; script not in the package).
+# Values recovered from the vector paths of the original figure; the delta = 0.01 MW and RP-VDVM series
+# agree with Table 4 of the Octave run to within 0.1 percentage points.
+rel_change,RP_VDVM_det,PT_delta_0.001,PT_delta_0.01,PT_delta_0.1
+1e-06,1.0,9.9,0.6,0.1
+1e-05,1.1,47.5,9.0,1.0
+1e-04,4.5,87.5,45.6,8.7
+1e-03,99.9,100.0,87.2,45.8
+1e-02,100.0,100.0,100.0,87.8

@@ -1,0 +1,44 @@
+pinned_to: logical CPU 0, high priority
+detected_cpu: 12th Gen Intel(R) Core(TM) i7-1255U
+core_type: performance core (P-core)
+check m=980 d=1 honest            accepted-correct 501 rejected   0 wrong 0
+check m=980 d=1 d_changed         accepted-correct 501 rejected   0 wrong 0
+check m=980 d=1 d_plus_1_changed  accepted-correct   0 rejected 501 wrong 0
+check m=980 d=1 tag_altered       accepted-correct   0 rejected 501 wrong 0
+check m=980 d=2 honest            accepted-correct 501 rejected   0 wrong 0
+check m=980 d=2 d_changed         accepted-correct 501 rejected   0 wrong 0
+check m=980 d=2 d_plus_1_changed  accepted-correct   0 rejected 501 wrong 0
+check m=980 d=2 tag_altered       accepted-correct   0 rejected 501 wrong 0
+check m=980 d=3 honest            accepted-correct 501 rejected   0 wrong 0
+check m=980 d=3 d_changed         accepted-correct 501 rejected   0 wrong 0
+check m=980 d=3 d_plus_1_changed  accepted-correct   0 rejected 501 wrong 0
+check m=980 d=3 tag_altered       accepted-correct   0 rejected 501 wrong 0
+check m=980 d=5 honest            accepted-correct 501 rejected   0 wrong 0
+check m=980 d=5 d_changed         accepted-correct 501 rejected   0 wrong 0
+check m=980 d=5 d_plus_1_changed  accepted-correct   0 rejected 501 wrong 0
+check m=980 d=5 tag_altered       accepted-correct   0 rejected 501 wrong 0
+check m=2244 d=1 honest            accepted-correct 501 rejected   0 wrong 0
+check m=2244 d=1 d_changed         accepted-correct 501 rejected   0 wrong 0
+check m=2244 d=1 d_plus_1_changed  accepted-correct   0 rejected 501 wrong 0
+check m=2244 d=1 tag_altered       accepted-correct   0 rejected 501 wrong 0
+check m=2244 d=2 honest            accepted-correct 501 rejected   0 wrong 0
+check m=2244 d=2 d_changed         accepted-correct 501 rejected   0 wrong 0
+check m=2244 d=2 d_plus_1_changed  accepted-correct   0 rejected 501 wrong 0
+check m=2244 d=2 tag_altered       accepted-correct   0 rejected 501 wrong 0
+check m=2244 d=3 honest            accepted-correct 501 rejected   0 wrong 0
+check m=2244 d=3 d_changed         accepted-correct 501 rejected   0 wrong 0
+check m=2244 d=3 d_plus_1_changed  accepted-correct   0 rejected 501 wrong 0
+check m=2244 d=3 tag_altered       accepted-correct   0 rejected 501 wrong 0
+check m=2244 d=5 honest            accepted-correct 501 rejected   0 wrong 0
+check m=2244 d=5 d_changed         accepted-correct 501 rejected   0 wrong 0
+check m=2244 d=5 d_plus_1_changed  accepted-correct   0 rejected 501 wrong 0
+check m=2244 d=5 tag_altered       accepted-correct   0 rejected 501 wrong 0
+tagging  m=2244 d=1: median 40.1 us (K=1)
+decoding m=2244 d=1: median 58.9 us (K=1)
+tagging  m=2244 d=2: median 70.7 us (K=1)
+decoding m=2244 d=2: median 113.4 us (K=1)
+tagging  m=2244 d=3: median 106.9 us (K=1)
+decoding m=2244 d=3: median 163.1 us (K=1)
+tagging  m=2244 d=5: median 176.6 us (K=1)
+decoding m=2244 d=5: median 320.2 us (K=1)
+cross-check with MATLAB tags: 12/12 match

@@ -1,0 +1,28 @@
+pinned_to: logical CPU 0, high priority
+reference_platform_in_paper: HP laptop, Intel Core i7-1255U (10 cores)
+detected_cpu: 12th Gen Intel(R) Core(TM) i7-1255U
+core_type: performance core (P-core)
+m=108 PolyTag: K=47 run(s) per sample
+m=108 RP-VDVM: K=4 run(s) per sample
+m=108 HMAC-SHA256: K=28 run(s) per sample
+m=108 AES128-CMAC: K=30 run(s) per sample
+m=108 AES128-GMAC: K=53 run(s) per sample
+m=108 Poly1305: K=74 run(s) per sample
+m=224 PolyTag: K=23 run(s) per sample
+m=224 RP-VDVM: K=2 run(s) per sample
+m=224 HMAC-SHA256: K=18 run(s) per sample
+m=224 AES128-CMAC: K=18 run(s) per sample
+m=224 AES128-GMAC: K=54 run(s) per sample
+m=224 Poly1305: K=49 run(s) per sample
+m=980 PolyTag: K=6 run(s) per sample
+m=980 RP-VDVM: K=1 run(s) per sample
+m=980 HMAC-SHA256: K=5 run(s) per sample
+m=980 AES128-CMAC: K=5 run(s) per sample
+m=980 AES128-GMAC: K=29 run(s) per sample
+m=980 Poly1305: K=15 run(s) per sample
+m=2244 PolyTag: K=3 run(s) per sample
+m=2244 RP-VDVM: K=1 run(s) per sample
+m=2244 HMAC-SHA256: K=3 run(s) per sample
+m=2244 AES128-CMAC: K=2 run(s) per sample
+m=2244 AES128-GMAC: K=13 run(s) per sample
+m=2244 Poly1305: K=8 run(s) per sample

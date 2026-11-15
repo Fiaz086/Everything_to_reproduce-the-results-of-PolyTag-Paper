@@ -1,0 +1,8 @@
+  it 1: LB 201 UB 215 cuts 302 (47 s)
+  it 2: LB 202 UB 215 cuts 303 (91 s)
+  it 3: LB 202 UB 215 cuts 304 (135 s)
+  it 4: LB 202 UB 215 cuts 305 (180 s)
+  it 5: LB 202 UB 214 cuts 306 (225 s)
+fatal: caught signal Terminated -- stopping myself...
+attempting to save variables to 'octave-workspace'...
+save to 'octave-workspace' complete

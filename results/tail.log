@@ -1,0 +1,680 @@
+=== run_09_svm ===
+case14 sc=0.0001: TPR 0.434 FPR 0.451 acc 0.492 train 0.4 s infer 0.06 us
+case14 sc=0.001: TPR 0.416 FPR 0.340 acc 0.540 train 0.5 s infer 0.07 us
+case14 sc=0.01: TPR 0.471 FPR 0.376 acc 0.548 train 0.4 s infer 0.06 us
+case30 sc=0.0001: TPR 0.444 FPR 0.424 acc 0.509 train 0.5 s infer 0.13 us
+case30 sc=0.001: TPR 0.524 FPR 0.548 acc 0.489 train 0.4 s infer 0.13 us
+case30 sc=0.01: TPR 0.487 FPR 0.428 acc 0.529 train 0.5 s infer 0.13 us
+case118 sc=0.0001: TPR 0.505 FPR 0.490 acc 0.507 train 0.6 s infer 0.69 us
+case118 sc=0.001: TPR 0.491 FPR 0.431 acc 0.530 train 0.6 s infer 0.71 us
+case118 sc=0.01: TPR 0.516 FPR 0.393 acc 0.562 train 0.6 s infer 0.70 us
+case300 sc=0.0001: TPR 0.500 FPR 0.522 acc 0.489 train 0.8 s infer 1.78 us
+case300 sc=0.001: TPR 0.538 FPR 0.559 acc 0.489 train 0.8 s infer 2.23 us
+case300 sc=0.01: TPR 0.523 FPR 0.564 acc 0.479 train 0.8 s infer 2.26 us
+=== run_09_svm done in 71 s ===
+=== run_10_adaptive ===
+case14 Nobs=  3: NF 0.002  RP 0.000  PolyTag 0.000
+case14 Nobs=  5: NF 0.440  RP 0.000  PolyTag 0.000
+warning: matrix singular to machine precision, rcond = 1.55977e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.55977e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.55977e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.40527e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.40527e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.40527e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.23082e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.23082e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.23082e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.18137e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.18137e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.18137e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.69611e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.69611e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.69611e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+case14 Nobs=  6: NF 1.000  RP 0.000  PolyTag 0.000
+case14 Nobs= 10: NF 1.000  RP 0.000  PolyTag 0.000
+case14 Nobs= 24: NF 1.000  RP 0.000  PolyTag 0.000
+case14 Nobs=168: NF 1.000  RP 0.000  PolyTag 0.000
+case118 Nobs=  3: NF 0.004  RP 0.000  PolyTag 0.000
+case118 Nobs=  5: NF 0.552  RP 0.000  PolyTag 0.000
+warning: matrix singular to machine precision, rcond = 2.51708e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 2.51708e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 2.51708e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 7.88929e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 7.88929e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 7.88929e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.06294e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.06294e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.06294e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.06332e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.06332e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.06332e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 3.13273e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 3.13273e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 3.13273e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.58695e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.58695e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.58695e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.71933e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.71933e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.71933e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.67233e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.67233e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.67233e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.59857e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.59857e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.59857e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 5.36704e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 5.36704e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 5.36704e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 2.83897e-19
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 2.83897e-19
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 2.83897e-19
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.749e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.749e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.749e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.33598e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.33598e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.33598e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.07757e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.07757e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.07757e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 7.40235e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 7.40235e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 7.40235e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.74503e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.74503e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 1.74503e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.30503e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.30503e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.30503e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.872e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.872e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.872e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 7.65031e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 7.65031e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 7.65031e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 2.05028e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 2.05028e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 2.05028e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 5.44686e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 5.44686e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 5.44686e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 4.84731e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 4.84731e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 4.84731e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 5.97088e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 5.97088e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 5.97088e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 6.24112e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 6.24112e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 6.24112e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 5.95307e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 5.95307e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 5.95307e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.43261e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.43261e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 9.43261e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 6.52718e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 6.52718e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 6.52718e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 4.52973e-19
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 4.52973e-19
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 4.52973e-19
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 2.72653e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 2.72653e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 2.72653e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.47655e-17
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.47655e-17
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 8.47655e-17
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 3.46242e-18
+warning: called from
+    run_10_adaptive at line 26 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 3.46242e-18
+warning: called from
+    run_10_adaptive at line 32 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+warning: matrix singular to machine precision, rcond = 3.46242e-18
+warning: called from
+    run_10_adaptive at line 38 column 10
+    run_one at line 6 column 1
+    run_tail at line 1 column 24
+
+case118 Nobs=  6: NF 0.990  RP 0.000  PolyTag 0.000
+case118 Nobs= 10: NF 1.000  RP 0.000  PolyTag 0.000
+case118 Nobs= 24: NF 1.000  RP 0.000  PolyTag 0.000
+case118 Nobs=168: NF 0.998  RP 0.000  PolyTag 0.000
+=== run_10_adaptive done in 1794065308 s ===
+=== run_11_coeff_generator ===
+public_seed_2025: n=15552  zeta in [-4.639, -4.052], mean -4.327, sd 0.080 (uniform on [-5,5] would have sd 2.887)
+secret_key_1: n=15552  zeta in [-4.639, -4.001], mean -4.327, sd 0.079 (uniform on [-5,5] would have sd 2.887)
+=== run_11_coeff_generator done in 13 s ===

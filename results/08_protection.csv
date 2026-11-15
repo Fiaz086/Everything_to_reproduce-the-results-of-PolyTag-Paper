@@ -1,0 +1,13 @@
+system,n_devices,k,status,lower_bound,upper_bound,greedy_disjoint_bound,cuts_total,iterations,solve_time_s
+case14,14,0,"optimal",4,4,5,15,3,0.22
+case14,14,1,"optimal",9,9,NaN,14,2,0.03
+case14,14,2,"infeasible (compromising devices [7 8] isolates a state)",NaN,Inf,NaN,13,0,0.03
+case30,30,0,"optimal",10,10,10,30,2,0.02
+case30,30,1,"optimal",21,21,NaN,30,2,0.03
+case30,30,2,"infeasible (compromising devices [9 11] isolates a state)",NaN,Inf,NaN,29,0,0.03
+case118,118,0,"optimal",34,34,37,167,16,0.30
+case118,118,1,"optimal",69,69,NaN,120,4,0.42
+case118,118,2,"infeasible (compromising devices [8 9] isolates a state)",NaN,Inf,NaN,117,0,0.59
+case300,300,0,"optimal",93,93,101,2065,263,48.15
+case300,300,1,"optimal",211,211,NaN,334,33,168.44
+case300,300,2,"infeasible (compromising devices [1 247] isolates a state)",NaN,Inf,NaN,299,0,2.66
