@@ -6,7 +6,7 @@ function info = platform_info(outfile)
 %   to OUTFILE (run_all uses results/00_platform.txt).
 %
 %   Reference platform of the paper (Section IX): HP laptop with an
-%   Intel Core i7-1255U processor (10 cores); GNU Octave 8.4.0 with
+%   Intel Core i7-1255U processor (10 cores); GNU Octave 8.4.0/ MATLAB 2019b or later with
 %   MATPOWER 8.1.1-dev; C code compiled with GCC (-O2 -march=native)
 %   against OpenSSL 3. All timings are single-threaded (one core).
 info.reference = 'HP laptop, Intel Core i7-1255U (10 cores)';
