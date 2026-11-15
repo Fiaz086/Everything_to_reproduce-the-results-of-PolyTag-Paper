@@ -1,6 +1,6 @@
 %RUN_ALL  Reproduce every result of the PolyTag paper (Octave 8 / MATLAB + MATPOWER).
 %   Reference platform (paper, Section IX): HP laptop, Intel Core i7-1255U (10 cores),
-%   GNU Octave 8.4.0, MATPOWER 8.1.1-dev. The CPU actually used is
+%   GNU Octave 8.4.0/MATLAB 2019b or later, MATPOWER 8.1.1-dev. The CPU actually used is
 %   recorded in results/00_platform.txt by platform_info (called from run_all).
 RUNALL = {'run_01_datasets','run_02_detection','run_03_noise_fp','run_04_rp32_calibrated', ...
           'run_05_single_point','run_06_forgery','run_07_localization','run_08_protection', ...
