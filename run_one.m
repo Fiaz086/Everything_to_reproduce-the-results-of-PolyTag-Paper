@@ -1,6 +1,6 @@
 %RUN_ONE  
 %   Reference platform (paper, Section IX): HP laptop, Intel Core i7-1255U (10 cores),
-%   GNU Octave 8.4.0, MATPOWER 8.1.1-dev. The CPU actually used is
+%   GNU Octave 8.4.0/MATLAB 2019b or later, MATPOWER 8.1.1-dev. The CPU actually used is
 %   recorded in results/00_platform.txt by platform_info (called from run_all).
 function run_one(RUNONE_name)
 %RUN_ONE  Run one experiment script in its own workspace (no variable clashes).
